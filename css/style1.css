@@ -1,0 +1,363 @@
+body {
+	background:#fff;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffdbdb;
+	font-family: moon flower;
+
+}
+
+ul.topnav li {float: right;}
+
+ul.topnav li a {
+    display: block;
+    color: #f5a8a8;
+    text-align: center;
+    padding: 34px 16px;
+    text-decoration: none;
+    font-size: 40px;
+}
+.logo {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display:inline-block;
+    vertical-align:top;
+  }
+
+ul.topnav li a:hover:not(.active) {color: #D98880;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+
+h2{
+	font-family: Moon Flower;
+	font-size: 20px;
+}
+
+p{
+	font-family: Moon Flower;
+	font-size: 20px;
+	text-align:center;
+	color:black;
+}
+
+
+
+.showcase{
+	padding:10px;
+	background: #ffffff;
+	font-family:Moon Flower;
+	font-size:20px;
+	text-align:center;
+	
+}
+
+.main-article{
+	background-image:url(../images/my.png);
+	padding:250px;
+	background-size: cover;
+}
+
+.Autumn-Collection{
+	padding:20px;
+	background:#fff;
+	font-family:Moon Flower;
+	text-align:center;
+	margin-top:10px;
+	color:#fc8e6c;
+	font-size:20px;
+}
+
+.products-sections {
+	padding:10px;
+	text-align: center;
+	display:grid;
+	grid-gap:10px;
+	grid-template-columns: 1fr 1fr 1fr;
+	box-shadow: 0 0 5 px black;
+}
+
+.product-one{
+	grid-column:1/2;
+}
+
+
+.product-two{
+	grid-column:2/3;
+}
+
+.product-three{
+	grid-column:3/4;
+}
+
+.products-section-two{
+	padding:10px;
+	text-align: center;
+	display:grid;
+	grid-gap:10px;
+	grid-template-columns: 1fr 1fr 1fr;
+	box-shadow: 0 0 5 px black;
+}
+.product-four{
+	grid-column:1/2;
+}
+
+.product-five{
+	grid-column:2/3;
+}
+
+.product-six{
+	grid-column:3/4;
+}
+
+.Aesthetic-Collection{
+	padding: 20px;
+	background:#fff;
+	font-family:Moon Flower;
+	text-align:center;
+	font-size:20px;
+	color:#f58585;
+}
+
+.products-section-three{
+	padding:10px;
+	text-align: center;
+	display:grid;
+	grid-gap:10px;
+	grid-template-columns: 1fr 1fr 1fr;
+	box-shadow: 0 0 5 px black;
+}
+
+.product-seven{
+	grid-column:1/2;
+}
+
+.product-eight{
+	grid-column:2/3;
+}
+
+.product-nine{
+	grid-column:3/4;
+}
+
+.product-ten{
+	grid-column:1/2;
+}
+
+.product-eleven{
+	grid-column:2/3;
+}
+
+.product-twelve{
+	grid-column:3/4;
+}
+
+.product-thirteen{
+	grid-column:1/2;
+}
+
+.product-fourteen{
+	grid-column:2/3;
+}
+
+.product-fifteen{
+	grid-column:3/4;
+}
+
+.The-SKIN-CARE-Collection{
+	padding: 20px;
+	background:#fff;
+	font-family:Moon Flower;
+	text-align:center;
+	font-size:20px;
+	color:#fa9964;
+}
+
+.products-section-four{
+	padding:10px;
+	text-align: center;
+	display:grid;
+	grid-gap:10px;
+	grid-template-columns: 1frfr 1fr 1fr;
+	box-shadow: 0 0 5 px black;
+}
+
+.product-sixteen{
+	grid-column:1/2;
+}
+
+.product-seventeen{
+	grid-column:2/3;
+}
+
+.product-eighteen{
+	grid-column:3/4;
+}
+
+.the-peach-perfect-collection{
+	padding: 20px;
+	background:#fff;
+	font-family:Moon Flower;
+	text-align:center;
+	font-size:20px;
+	color:#fd8383;
+}
+
+.products-section-five{
+	padding:10px;
+	text-align: center;
+	display:grid;
+	grid-gap:10px;
+	grid-template-columns: 1fr 1fr 1fr;
+	box-shadow: 0 0 5 px black;
+}
+
+.products-nineteen{
+	grid-column:1/2;
+}
+
+.products-twenty{
+	grid-column:2/3;
+}
+
+.products-twenty-one{
+	grid-column:3/4;
+}
+
+.the-brush-collection{
+	padding: 20px;
+	background:#fff;
+	font-family:Moon Flower;
+	text-align:center;
+	font-size:20px;
+	color:#fd8383;
+}
+
+.products-section-six{
+	padding:10px;
+	text-align: center;
+	display:grid;
+	grid-gap:10px;
+	grid-template-columns: 1fr 1fr 1fr;
+	box-shadow: 0 0 5 px black;
+}
+
+.products-twenty-two{
+	grid-column:1/2;
+}
+
+.products-twenty-three{
+	grid-column:2/3;
+}
+
+.The-Summer-Collection{
+	padding: 20px;
+	background:#fff;
+	font-family:Moon Flower;
+	text-align:center;
+	font-size:20px;
+	color:#f38c68;
+}
+
+.products-section-six{
+	padding:10px;
+	text-align: center;
+	display:grid;
+	grid-gap:10px;
+	grid-template-columns: 1fr 1fr 1fr;
+	box-shadow: 0 0 5 px black;
+}
+
+.product-twenty-four{
+	grid-column:1/2;
+}
+
+.product-twenty-five{
+	grid-column:2/3;
+}
+
+.product-twenty-six{
+	grid-column:3/4;
+}
+
+.product-twenty-seven{
+	grid-column:1/2;
+}
+
+.product-twenty-eight{
+	grid-column:2/3;
+}
+
+.product-twenty-nine{
+	grid-column:3/4;
+}
+
+.The-EYES-EYES-BABY-Collection{
+	padding: 20px;
+	background:#fff;
+	font-family:Moon Flower;
+	text-align:center;
+	font-size:20px;
+	color:#f38c68;
+}
+
+.products-section-seven{
+	padding:10px;
+	text-align: center;
+	display:grid;
+	grid-gap:10px;
+	grid-template-columns: 1fr 1fr 1fr;
+	box-shadow: 0 0 5 px black;
+}
+
+.product-thirty{
+	grid-column:1/2;
+}
+
+.product-thirty-one{
+	grid-column:2/3;
+}
+
+.product-thirty-two{
+	grid-column:3/4;
+}
+
+.form{
+	font-family: Moon Flower;
+	font-size:20px;
+	color:#f38c68;
+	text-align:center;
+	padding:10px;
+	background:#fae1e2;
+	font: Bold;
+	margin-bottom: 10px;
+}
+
+h3{
+	font-family: Moon Flower;
+	font-size:33px;
+	text-align: center;
+}
+
+h4{
+	font-family: Moon Flower;
+	font-size:20px;
+	margin: 0 0 0 0;
+	
+}
+.Footer{
+	background: #f8cda1;
+	padding: 1px;
+	margin-bottom: 0px;
+	text-align: center;
+	font-family: verdana;
+	color: #ffdbdb;

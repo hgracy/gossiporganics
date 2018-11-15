@@ -1,0 +1,125 @@
+body{
+	font-family: verdana;
+	color: black;
+	background-repeat: no repeat;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffeee3;
+	font-family: moon flower;
+
+}
+
+ul.topnav li {float: right;}
+
+ul.topnav li a {
+    display: block;
+    color: #F5CBA7;
+    text-align: center;
+    padding: 34px 16px;
+    text-decoration: none;
+    font-size: 40px;
+}
+.logo {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display:inline-block;
+    vertical-align:top;
+  }
+
+ul.topnav li a:hover:not(.active) {color: #D98880;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+
+/* PRODUCTS SECTION */
+
+.products{
+	padding:10px;
+	text-align: center;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	display: grid;
+	grid-gap: 10px;
+	box-shadow: 0 0 5 px black;
+}
+
+.one{
+	grid-column: 1/2;
+	grid-row: 1/3
+}
+
+/* HEAD SECTION */
+
+.main{
+	padding: 50px;
+	text-align: center;
+	grid-template-columns: 1fr 1fr;
+	display: grid;
+	grid-gap: 10px;
+	box-shadow: 0 0 5 px black;
+}
+
+h1{
+	text-align: center;
+	font-family: moon flower;
+	color: #ffbc97;
+	font-size: 70px;
+}
+
+#message{
+	font-family: century gothic;
+	font-size: 18px;
+	color: black;
+}
+
+h2{
+	text-align: center;
+	font-family: moon flower;
+	color: #ffbc97;
+	font-size: 70px;
+}
+
+/* FORM SECTION */
+
+form{
+	text-align: center;
+	font-family: century gothic;
+}
+
+input{
+	color: gray;
+	font-family: century gothic;
+    padding: 15px 60px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input:focus{
+	background: #ffeee3;
+}
+
+/* FOOTER SECTION */
+
+.icon{
+	color: #ffbc97;
+	text-align: center;
+}
+
+p{
+	color: gray;
+	font-size: 15px;
+	font-family: century gothic;
+}
+
+
+
