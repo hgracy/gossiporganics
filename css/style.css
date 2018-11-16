@@ -1,8 +1,12 @@
+@font-face{
+	font-family: moon flower;
+	src: url(../fonts/MoonFlower.ttf);
+}
+
 body{ 
 	background: #F8F9F9  ;
 	background-repeat: none;
 	margin:0;
-	font-family: 
 }
 
 
