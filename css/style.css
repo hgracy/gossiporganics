@@ -1,6 +1,6 @@
-@font-face{
-	font-family: moon flower;
-	src: url(../fonts/MoonFlower.ttf);
+@font-face {
+    font-family: moon flower;
+    src: url(../fonts/Moon+Flower.ttf);
 }
 
 body{ 
@@ -8,8 +8,6 @@ body{
 	background-repeat: none;
 	margin:0;
 }
-
-
 
 ul.topnav {
     list-style-type: none;

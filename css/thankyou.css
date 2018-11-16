@@ -1,3 +1,8 @@
+@font-face {
+    font-family: moon flower;
+    src: url(../fonts/Moon+Flower.ttf);
+}
+
 .thankyou{
 	padding:5px;
 	background:#fae1e2;
@@ -7,7 +12,7 @@
 }
 
 h1{
-	font-family: Moon Flower;
+	font-family: moon flower;
 }
 
 ul.topnav {

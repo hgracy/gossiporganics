@@ -1,13 +1,19 @@
+@font-face {
+    font-family: Moon Flower;
+    src: url(../fonts/Moon+Flower.ttf);
+}
+
 body {
 	background:#fff;
 }
+
 ul.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #ffdbdb;
-	font-family: moon flower;
+	font-family: Moon Flower;
 
 }
 

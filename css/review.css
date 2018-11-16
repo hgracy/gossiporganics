@@ -1,3 +1,8 @@
+@font-face {
+    font-family: moon flower;
+    src: url(../fonts/Moon+Flower.ttf);
+}
+
 body{ 
 	background: #F8F9F9  ;
 	background-repeat: none;
